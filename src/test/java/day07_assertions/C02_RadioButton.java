@@ -3,6 +3,7 @@ package day07_assertions;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -24,6 +25,7 @@ public class C02_RadioButton
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }
 
+    @Ignore //bu test calismaz - testNG'de @Test(enabled=false)
     @Test
     public void test01() throws InterruptedException {
         //https://www.facebook.com adresine gidin

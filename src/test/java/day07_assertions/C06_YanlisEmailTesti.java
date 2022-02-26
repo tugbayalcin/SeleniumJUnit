@@ -8,6 +8,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
+// BU SITE CALISMADIGI ICIN ODEV YAPILAMADI !!!!!!!
+// BU SITE CALISMADIGI ICIN ODEV YAPILAMADI !!!!!!!
+// BU SITE CALISMADIGI ICIN ODEV YAPILAMADI !!!!!!!
+// BU SITE CALISMADIGI ICIN ODEV YAPILAMADI !!!!!!!
 
 public class C06_YanlisEmailTesti
 {
@@ -29,13 +33,14 @@ public class C06_YanlisEmailTesti
     @Test
     public void signInTesti()
     {
-
+        // Sign in butonuna basalim
     }
 
     @Test
     public void invalidEmailTesti()
     {
-
+        // e mail kutusuna @isareti olmayan bir mail yazip enter'a bastigimizda "Invalid email address"
+        // uyarisi ciktigini test edelim
     }
 
     @AfterClass

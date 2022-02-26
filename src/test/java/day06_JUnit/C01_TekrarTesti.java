@@ -22,7 +22,7 @@ public class C01_TekrarTesti
         //2- https://www.google.com/ adresine gidin
         driver.get("https://www.google.com/");
 
-        //3- cookies uyarisini kabul ederek kapatin // cikarsa yapman gerek, duruma gore ilgili butonu click edeceksin
+        //3- cookies uyarisini kabul ederek kapatin --> cikarsa yapman gerek, duruma gore ilgili butonu click edeceksin
         // driver.findElement(By.xpath("")).click();
 
         //4-Sayfa basliginin “Google” ifadesi icerdigini test edin
