@@ -50,6 +50,7 @@ public class C01_CheckBox
         {
             checkBox1.click();
         }
+
         Thread.sleep(1000);
     }
 
